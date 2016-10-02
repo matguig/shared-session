@@ -17,5 +17,6 @@ Package.onUse(function( api ) {
     "server/shared-session.publish.js"
   ], "server");
 
+  api.mainModule("client/shared-session.js", "client");
   api.mainModule("server/shared-session.js", "server");
 });
