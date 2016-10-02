@@ -11,6 +11,7 @@ Package.onUse(function( api ) {
   api.use(["ecmascript", "matb33:collection-hooks"]);
   api.addFiles("common/shared-session.js");
   api.addFiles([
+    "server/shared-session.allow-deny.js",
     "server/shared-session.publish.js"
   ], "server");
   api.mainModule("server/shared-session.js", "server");
