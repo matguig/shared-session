@@ -5,3 +5,9 @@ Package.describe({
   git: "https://github.com/matguig/shared-session.git",
   documentation: "README.md"
 });
+
+Package.onUse(function( api ) {
+  api.versionsFrom("1.4.1.1");
+  api.use(["ecmascript", "matb33:collection-hooks"]);
+  api.addFiles("common/shared-session.js");
+});
