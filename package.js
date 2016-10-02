@@ -8,7 +8,10 @@ Package.describe({
 
 Package.onUse(function( api ) {
   api.versionsFrom("1.4.1.1");
-  api.use(["ecmascript", "matb33:collection-hooks"]);
+
+  api.use("ecmascript");
+  api.use("matb33:collection-hooks@0.8.4");
+
   api.addFiles("common/shared-session.js");
   api.addFiles([
     "server/shared-session.startup.js",
