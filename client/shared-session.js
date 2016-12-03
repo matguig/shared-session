@@ -1,4 +1,5 @@
-import { collectionName, sharedSessionCollection, sharedSessionCommon } from "meteor/matguig:shared-session/common/shared-session.js";
+import { collectionName, sharedSessionCollection } from "meteor/matguig:shared-session/common/shared-session.collection.js";
+import { sharedSessionCommon } from "meteor/matguig:shared-session/common/shared-session.js";
 
 class sharedSessionClient extends sharedSessionCommon {
 

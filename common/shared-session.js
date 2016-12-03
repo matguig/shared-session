@@ -1,7 +1,4 @@
-import {Mongo} from "meteor/mongo";
-
-export const collectionName = "matguig:shared-session";
-export const sharedSessionCollection  = new Mongo.Collection( collectionName );
+import { sharedSessionCollection } from "meteor/matguig:shared-session/common/shared-session.collection.js";
 
 class sharedSessionCommon {
 
