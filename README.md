@@ -67,9 +67,11 @@ Prototype of the public Methods
     - **_Cursor_**          sharedSession.getAll( );
 - Delete an entry by using key
     - **_boolean_**         sharedSession.delete( **_string_** key );
+
 #### Server side
 - Remove all current shared session
     - **_boolean_**         sharedSession.clearAll( );
+
 #### Server side Static Method
 - Retrieve shared Session instance of an specific connection id.
     - **_sharedSession_**           sharedSession.instance( [**_string_** uid] );
