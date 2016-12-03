@@ -29,13 +29,6 @@ export const sharedSession = (function() {
         }
 
         /**
-         * Return collection to publish
-         */
-        getPublishedCollection( ) {
-            return sharedSessionCollection.find( this._getSearch( ) );
-        }
-
-        /**
          * Remove all current shared session
          */
         clearAll( ) {

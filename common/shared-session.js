@@ -21,7 +21,7 @@ class sharedSessionCommon {
      * @param { string } key
      * @param { mixed } value
      * @param { object } options
-     * @return { boolean}
+     * @return {boolean}
      */
     set( key, value, options ) {
         options = options || {};
@@ -37,7 +37,7 @@ class sharedSessionCommon {
     }
 
     /**
-     * return value by using keu
+     * return value by using key
      * @param { string } key
      * @return { mixed }
      */
