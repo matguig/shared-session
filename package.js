@@ -14,7 +14,6 @@ Package.onUse(function( api ) {
 
   api.addFiles("common/shared-session.js");
   api.addFiles([
-    "server/shared-session.startup.js",
     "server/shared-session.collection-hook.js",
     "server/shared-session.allow-deny.js",
     "server/shared-session.publish.js"
