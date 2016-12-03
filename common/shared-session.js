@@ -37,7 +37,7 @@ class sharedSessionCommon {
     }
 
     /**
-     * return value by using keu
+     * return value by using key
      * @param { string } key
      * @return { mixed }
      */
