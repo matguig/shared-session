@@ -1,4 +1,4 @@
-import { sharedSessionCollection } from "meteor/matguig:shared-session/common/shared-session.js";
+import { sharedSessionCollection } from "meteor/matguig:shared-session/common/shared-session.collection.js";
 import { sharedSession } from "meteor/matguig:shared-session/server/shared-session.js";
 
 /**
