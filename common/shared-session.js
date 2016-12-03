@@ -21,7 +21,7 @@ class sharedSessionCommon {
      * @param { string } key
      * @param { mixed } value
      * @param { object } options
-     * @return { boolean}
+     * @return {boolean}
      */
     set( key, value, options ) {
         options = options || {};
