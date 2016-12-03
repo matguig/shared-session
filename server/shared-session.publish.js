@@ -6,5 +6,5 @@ Meteor.publish( collectionName, function ( ) {
     var mySession = sharedSession.instance( uid );
 
     this.connection.onClose( mySession.clearAll.bind( mySession ) );
-    return mySession.getPublishedCollection( );
+    return mySession.getAll( );
 });
