@@ -22,6 +22,5 @@ sharedSessionCollection.before.insert(function (userId, doc) {
  * @param { object } modifier
  */
 sharedSessionCollection.before.update(function (userId, doc, fieldNames, modifier) {
-    console.log( fieldNames );
     modifier.$set.updatedAt = new Date();
 });
